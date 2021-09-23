@@ -85,32 +85,32 @@ Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communi
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD  Free De La Hoya TO YOUR GROUP ➕️",url="http://t.me/FreeDeLaHoyarobot?startgroup=true"
+            text="༒ 𝙰𝙳𝙳 Free De La Hoya 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="http://t.me/FreeDeLaHoyarobot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="🔐 Commands", callback_data="help_back"
+          text="༺ 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 & 𝙷𝙴𝙻𝙿 ༻", callback_data="help_back"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/PigasusUpdates"
+          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/PigasusUpdates"
         ),
       
         InlineKeyboardButton(
-          text="LOGS", url="https://t.me/PigasusLogs"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/VALTAOITHEBOT"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/PigasusSupport"
+           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/PigasusSupport"
          ),
     ],
     [
       InlineKeyboardButton(
-           text="MY OWNER", url="https://t.me/Rohith_no_1"
+           text="彡 𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 彡", url="https://t.me/Rohith_no_1"
         ),
     ],
 ]
