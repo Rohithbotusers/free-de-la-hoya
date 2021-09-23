@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_GIF = "https://telegra.ph/file/da7e31efc7b5b04d7d898.mp4"
+INNEXIA_img = "https://telegra.ph/file/73929a1f46961e321be29.jpg"
 
 PM_START_TEXT = """
  Hey There, I'm [Free De La Hoya](https://telegra.ph/file/c498395c43634b4bd0e91.jpg)
@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            INNEXIA_GIF, caption= "<code>Free ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+            INNEXIA_img, caption= "<code>Free De La Hoya ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
