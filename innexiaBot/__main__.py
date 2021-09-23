@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/85083e47eded1eb77a9bb.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/c498395c43634b4bd0e91.jpg"
 
 PM_START_TEXT = """
- Hey There, I'm [Shinchan](https://telegra.ph/file/85083e47eded1eb77a9bb.jpg)
+ Hey There, I'm [Free De La Hoya](https://telegra.ph/file/c498395c43634b4bd0e91.jpg)
 
 I Am An Cartoon Themed Group Management Bot.
 
@@ -85,7 +85,7 @@ Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communi
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD SHINCHAN TO YOUR GROUP ➕️",url="http://t.me/Shinchansrobot?startgroup=true"
+            text="➕️ ADD  Free De La Hoya TO YOUR GROUP ➕️",url="http://t.me/FreeDeLaHoyarobot?startgroup=true"
         ),
     ],
     [
@@ -370,8 +370,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" SHINCHAN- A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of SHINCHAN.
+            text=""" Free De La Hoya- A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of Free De La Hoya.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -444,7 +444,7 @@ def innexia_about_callback(update, context):
             ),
         )
 
-    elif query.data == "innexia_notes":
+    elif query.data == "Free De La Hoya_notes":
         query.message.edit_text(
             text=f"<b> Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -455,9 +455,9 @@ def innexia_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="innexia_basichelp")]]
             ),
         )
-    elif query.data == "innexia_support":
+    elif query.data == "Free De La Hoya_support":
         query.message.edit_text(
-            text="* Innexia support chats*"
+            text="* Free De La Hoya support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -479,18 +479,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR INNEXIA DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Innexia Bot",
+            text=f"<b> CREDIT FOR Free De La Hoya DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The Free De La Hoya Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴀᴍᴍʏ", url="t.me/useIes"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="Bio", url="t.me/PigasusOfficial"),
+                    InlineKeyboardButton(text="Updates", url="t.me/PigasusUpdates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Iɴꜰɪɴɪᴛʏ", url="t.me/hell_king_infinity"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="Support", url="t.me/PigasusSupport"),
+                    InlineKeyboardButton(text="Logs", url="https://t.me/PigasusLogs"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -506,8 +506,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+            text=""" Hi..😻 I'm *Free De La Hoya*
+                 \nHere is the [🔥channel🔥](https://t.me/pigasusupdates) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -808,7 +808,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I Aᴍ Aʟɪᴠᴇ 🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "My fafnir is ready for battle 🔥")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
