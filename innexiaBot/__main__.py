@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/da7e31efc7b5b04d7d898.mp4"
+INNEXIA_GIF = "https://telegra.ph/file/da7e31efc7b5b04d7d898.mp4"
 
 PM_START_TEXT = """
  Hey There, I'm [Free De La Hoya](https://telegra.ph/file/c498395c43634b4bd0e91.jpg)
@@ -233,15 +233,21 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            INNEXIA_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            INNEXIA_GIF, caption= "<code>Free ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/PigasusSupport")]]
+                [
+                  [
+                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PigasusSupport")
+                  ],
+                  [
+                  InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1")
+                  ]
+                ]
             ),
         )
-        
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
     # Log the error before we do anything else, so we can see it even if something breaks.
