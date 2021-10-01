@@ -1,51 +1,61 @@
-<h1 align="center"><b> ⚡ Free de la hoya ⚡ </b></h1>
-
-<h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
-<p align='center'>
-  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
-  <a href="https://github.com/TeamDeeCode/innexia/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
-</p>
-
-<p align="center"><a href="https://t.me/innexiaBot"><img src="(https://telegra.ph/file/e641d3dd2ccdce6a3d934.jpg)" width="400"></a></p>
-
-## Available on Telegram as [@Innexia](https://t.me/innexiaBot)
-
-# ❤️ Support
-<a href="https://t.me/DeeCodeBots"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="t.me/DeCodeSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+![Valt Aoi](https://telegra.ph/file/a67c2340316ee08944927.jpg)
+# Valt Aoi robot
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/IzumiCypherX/EmiliaAnimeBot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html)<br> [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)<br> [![Updates channel!](https://img.shields.io/badge/Join%20Channel-↗-red)](https://t.me/pigasusupdates) 
+[![Support Group!](https://img.shields.io/badge/Join%20Group-↗-green)](https://t.me/PigasusSupport)
 
 
-> ⭐️ Thanks to everyone who starred Innexia, That is the greatest pleasure we have !
+> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems.
 
-## Click The Image And Deploy Your Bot
 
-## ✨ Heroku Deploy ✨
-The easiest way to deploy this Bot is via Heroku.
+### Can be found on telegram as [Valt Aoi ](https://t.me/VALTAOITHEBOT).
 
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/TeamDeeCode/innexia"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+### Status
 
-## ✨ Deploying to Local Machine ✨
++ [x] Maintained
++ [x] Support Group Included
++ [x] Free
++ [x] OpenSourced
++ [x] Working Instance Available
++ [x] Clean Code
 
-```console
-$ git clone https://github.com/TeamDeeCode/innexia
-$ cd innexiaBot
-$ pip3 install -U -r requirements.txt
-$ cp sample_config.py config.py
+#### Creator Info/Credits
+
 ```
- <h3 align="center"> 
-    Edit <b>config.py</b> with your own values
-</h3>
+Thanks To:
+> @AnimeKaizoku
 
-## ✨ Using Docker ✨
+> @PaulSonofLars
 
-```console
-$ git clone https://github.com/TeamDeeCode/innexia
-$ cd innexiaBot
-$ cp sample_config.env config.env
+> @sudo_nautilus
+
+> @kanekiken44
+
 ```
 
-<h3 align="center"> 
-    Edit <b> config.env </b> with your own values
-</h3>
 
 
+The Support group can be reached out to at [PIGASUS-SUPPORT](https://t.me/pigasusSupport), where you can ask for help about [Valt Aoi ](https://t.me/VALTAOITHEBOT), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+
+<details>
+	<summary>Heroku Deploy</summary>
+	<br>
+	<b>
+The Easiest Way to Deploy This Bot is Via Heroku.
+		In Order To deploy, You Just Have Fill The Necessary Environment Variables and Done!</b>
+	
+  <h1>
+    <p align="center">
+        <a href="https://heroku.com/deploy?template=https://github.com/Rohithbotusers/Valt-Aoi">
+            <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+        </a>
+    </p>
+</h1>
+
+</details> 
+
+<details>
+    <summary>More Deploy Options</summary>
+    <br>
+    <h2 align="center">
+
+    Deploying on Local Machine
