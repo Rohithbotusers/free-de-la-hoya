@@ -110,7 +110,7 @@ buttons = [
     ],
     [
       InlineKeyboardButton(
-           text="彡 YT Link  彡", url="https://www.youtube.com/channel/UC6-0t5HEUBaBnJG0VEzNs-g"
+           text="彡 Owner  彡", url="https://t.me/Rohith_no_1"
         ),
     ],
 ]
